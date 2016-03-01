@@ -1,0 +1,28 @@
+SPECIFICATION
+	
+	A cron monitor to remove all cron entries older than 30 days from all users
+		
+This script is written in python.
+
+It is
+	fully unit tested
+	fully configurable
+	fully validated
+	fully commented
+	easy to maintain
+
+How To Install
+
+ 	1. append the following line to your crontab ( as root)
+
+		0 * * * * python /path/to/cron_monitor.py
+		e.g) 0 * * * * python /root/work/cron\ monitor/monitor/cron_monitor.py
+
+ 	2. now it works
+
+
+How To Run Unit test for cron monitor
+
+	#cd /path/to/cron\ monitor/
+	#python test.py
+	
